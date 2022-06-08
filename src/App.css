@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+
+}
+
+nav{
+  display: flex;
+  justify-content: end;
+}
+
+nav ul{
+  
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4vw;
+  list-style: none;
+  text-decoration-line: none;
+  
+  width: 5vw;
+  height: 4vh;
+  border-radius: 10px;
+
+}
+
+nav :link{
+  text-decoration: none;
+  font-size: 2.5vh;
+  
+}
+
+
+
+
+
