@@ -11,7 +11,7 @@ function Users() {
   const [users, setUsers] = useState([])
 
   useEffect(() => {
-    axios("https://jsonplaceholder.typicode.com/users")
+    axios(`${process.env.REACT_APP_API_ENDPOINT}/users`)
     .then(res => setUsers(res.data))
     .finally(() => setLoading(false));
   },[])
